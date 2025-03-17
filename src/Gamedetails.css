@@ -1,0 +1,45 @@
+/* Game Details Container */
+.game-details {
+    padding: 2rem;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Game Title */
+  .game-details h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #00ff88; /* Neon green accent */
+  }
+  
+  /* Game Description */
+  .game-details p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #e0e0e0; /* Light gray text */
+  }
+  
+  /* Video Player */
+  .game-details video {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 255, 136, 0.3); /* Neon green shadow */
+    margin: 0 auto;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .game-details h2 {
+      font-size: 2rem;
+    }
+  
+    .game-details p {
+      font-size: 1rem;
+    }
+  
+    .game-details video {
+      max-width: 100%;
+    }
+  }
